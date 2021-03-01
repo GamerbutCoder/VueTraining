@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 import navBar from '@/components/navbar.vue'
-import Products from '@/views/products.vue'
+//import Products from '@/views/products.vue'
 import { mapGetters } from 'vuex'
 export default {
     name: 'login',
@@ -47,7 +47,7 @@ export default {
             if(this.uname===this.pwd){
                 this.$store.dispatch('setLoginAction',true)
                 this.$router.go(-1)
-                this.$router.push(Products)
+                //this.$router.push(Products)
             }
             
             this.pwd = ''
