@@ -17,7 +17,7 @@ export default {
         display: flex;
         flex-direction:row-reverse;
         background-color: rgb(240, 142, 85);
-        height: 40px;
+        
     }
     a {
         text-decoration: none;

@@ -9,8 +9,7 @@
     box-sizing: border-box;
   }
   body{
-    margin :1px;
-    margin-top:2px;
+    margin :0px;
     margin-bottom: 2px;
   }
 </style>
